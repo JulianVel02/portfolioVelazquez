@@ -1,0 +1,22 @@
+body {
+    background-color: #E9D758;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    border-color: #E9D758;
+    border-radius: 20px;
+    background-color: #297373;
+    height: 40px;
+    width: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    border: dashed 3px #FF8552;
+    
+}

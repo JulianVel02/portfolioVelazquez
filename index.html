@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    " />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<header class="header">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#portfolio">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#acercaDeMi">Acerca de Mi</a>
+          <a class="nav-link" href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="colorDeFondo">
+  <div class="centrado container">
+    <img src="./img/avatarJulian.png  " alt="julian" class="fotoPerfil" />
+    <div class="datos">
+      <h1>Matías Julián Velazquez</h1>
+      <h2>Front-End Developer</h2>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div id="portfolio" class="sectorClaro sectorProyectos">
+    <div class="container textCenter">
+      <h1 class="proyectos">Proyectos realizados</h1>
+      <div class="row">
+        <div class="col-12 col-md-4 columna zoom fondo">
+          <a href="./Proyectos/ColorGame/index.html" target="_blank"><i class="bi bi-box-fill icono"></i></a>
+          <p>Un Pequeño juego para adivinar diversos colores!</p>
+        </div>
+        <div class="col-12 col-md-4 columna zoom fondo">
+          <a href="./Proyectos/Lista/index.html" target="_blank"><i class="bi bi-box-fill icono"></i></a>
+          <p>Una lista donde podrás organizar tus quehaceres.</p>
+        </div>
+        <div class="col-12 col-md-4 columna zoom fondo">
+          <a href="./Proyectos/Weather/index.html" target="_blank"><i class="bi bi-box-fill icono"></i></a>
+          <p>Querés saber el clima del resto del mundo? Esta es tu página!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="acercaDeMi">
+    <div class="container">
+      <div class="colorDeLetra">
+        <h2 id="acercaDeMi" class="tituloCentrado">Acerca de Mi</h2>
+        <hr />
+        <p class="lead">
+          Me llamo Julian Velazquez, tengo 21 años y actualmente estudio Sistemas Informaticos en la Universidad Tecnologica Nacional, a parte, sigo instruyendome para ser desarrollador Front-End, formado en base a cursos online, como con Plataforma 5, y de forma Autodidacta. Me puedo desenvolver en areas como HTML, CSS y JavaScript y sigo aprendiendo sobre nuevos metodos, librerias o lenguajes. Me considero una persona carismática, productiva y organizada para poder desarrollarme en ambientes laborales.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div id="containerContacto">
+    <div class="contacto">
+        <h1 id="contacto-h1">Contacto</h1>
+        <form action="https://formspree.io/f/mjvzwdbq" method="post">
+            <div class="form-floating mb-3">
+                <input type="text" name="Nombre" class="form-control" id="floatingInput" placeholder="Nombre"
+                    required>
+                <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" name="Correo" class="form-control" id="floatingemail" placeholder="Correo"
+                    required>
+                <label for="floatingemail">Correo electrónico</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" name="Numero de teléfono" class="form-control" id="floatingInput"
+                    placeholder="Teléfono" required>
+                <label for="floatingInput">Número de teléfono</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea name="Mensaje" id="floatingtextarea" class="form-control" placeholder="Mensaje"
+                    required></textarea>
+                <label for="floatingtextarea">Menaje</label>
+            </div>
+            <input class="btn btn-primary bg-black" type="submit" value="Enviar">
+        </form>
+    </div>
+</div>
+</div>
+</section>
+<section>
+  <footer>
+    <div class="containerFooter">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <h2> Direccion </h2>
+          <p class="direccionFooter"> Vicente Lopez, Buenos Aires</p>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h2> Mis redes </h2>
+          <a href="https://www.instagram.com/juli.velazzz/" target="_blank">
+            <img class="zoomRedes redes"
+              src="https://cdn.icon-icons.com/icons2/856/PNG/512/social_media_corporate_logo_instagram_icon-icons.com_67731.png"
+              alt="instagram">
+          </a>
+
+          <a href="https://www.linkedin.com/in/mat%C3%ADas-juli%C3%A1n-velazquez-35920422b/?originalSubdomain=ar" target="_blank">
+            <img class="zoomRedes redes"
+              src="https://cdn.icon-icons.com/icons2/856/PNG/512/social_media_corporate_logo_linkedin_icon-icons.com_67726.png"
+              alt="linkedin">
+          </a>
+
+          <a href="https://github.com/JulianVel02" target="_blank">
+            <img class="zoomRedes redes"
+              src="https://cdn.icon-icons.com/icons2/856/PNG/512/social_media_corporate_logo_github_icon-icons.com_67708.png"
+              alt="github">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+
+</html>

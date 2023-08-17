@@ -1,0 +1,64 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #FCEC52;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  /* background-color: #944BBB; */
+  margin: 5px;
+  border-radius: 10%;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+  text-align: center;
+  background-color: #ADE25D;
+  font-style: italic;
+}
+div.stipe {
+  padding: 5%;
+}
+#message {
+  color: white;
+}
+
+#stripe {
+  background-color: #ADE25D;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 10%;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #FCEC52;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.239);
+}
+
+.zoom {
+  transition: transform 0.3s;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.sombra {
+  box-shadow: 13px 15px 8px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 13px 15px 8px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 13px 15px 8px 0px rgba(0, 0, 0, 0.71);
+}
